@@ -67,25 +67,8 @@ color:#0065FC;
 
 /* MAIN SEARCH BAR */
 
-main
-{
-    
-    margin-left: 117px;
-}
 
-#icon_btn
-{
-    border:solid 1px;
-    background-color: #F2F2F2;
-    
-}
 
-#search_btn
-{
-    border: solid #0065FC ;
-    border-radius: 0px 10px 10px 0px;
-    background-color: #0065FC;
-    color: white;
-}
+
 
 
