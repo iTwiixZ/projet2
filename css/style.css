@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 992px) {
+}
+
+
+/* Header */
+
+body
+{
+    font-family : 'Raleway', sans-serif ;
+}
+
+.logo
+{
+margin-left: 50px;
+margin-top: auto;
+}
+
+body
+{
+    margin: 0;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul 
+{
+    display: flex;
+    list-style: none;
+}
+
+nav li
+{
+    margin:0px 150px 0px 10px;
+}
+
+a
+{
+    color: #2078fc ;
+    text-decoration: none;
+}
+
