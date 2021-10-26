@@ -15,8 +15,7 @@
   <header>
     
     <nav>
-      <img class="logo" src="images/logo/Booki.png" alt="Logo">
-        
+        <img class="logo" src="images/logo/Booki.png" alt="Logo">
         <ul>
             <li class="nav_entry" ><a href="#">
                 <h4 class="nav_title">Hébergements</h4>
@@ -26,22 +25,26 @@
             </a></li>
         </ul>
     
-    </nav>  
-  
-</header>
+    </nav>
+    <hgroup class="title_container">
+        <h1 class="pincipal_title">Trouver votre hébergement pour des vacances de rêve</h2>
+        <h2 class="secondary_title">En plein centre ville ou en pleine nature</h4>
+</hgroup>
+</header> 
                            
                         <!-- MAIN -->
 <main>
 
-<h2>Trouver votre hébergement pour des vacances de rêve</h2>
-<h4>En plein centre ville ou en pleine nature</h4>
+                     <!--Search Bar -->
 
 <form method="post" action="traitement.php">
     <label for="place">
-        <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+        <i id="icon_btn" class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
     </label>
     <input type="text" name="place" id="place">
-    <button id="search_btn">Rechercher</button>
+    <button type="submit">
+        <span>Rechercher</span>
+    </button>
 </form>
 
 

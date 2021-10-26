@@ -57,14 +57,27 @@ color:#0065FC;
     color: #0065FC;
 }
 
+.title_container
+{
+    margin-top: 111px;
+    margin-left:117px;
+    margin-bottom: 45px;
+}
 
 
 /* MAIN SEARCH BAR */
 
 main
 {
-    margin-top: 114px;
+    
     margin-left: 117px;
+}
+
+#icon_btn
+{
+    border:solid 1px;
+    background-color: #F2F2F2;
+    
 }
 
 #search_btn
