@@ -13,7 +13,7 @@ body
 
 .logo
 {
-margin-left: 50px;
+margin-left: 117px;
 margin-top: auto;
 }
 
@@ -55,6 +55,16 @@ color:#0065FC;
 .nav_title:hover
 {
     color: #0065FC;
+}
+
+
+
+/* MAIN SEARCH BAR */
+
+main
+{
+    margin-top: 114px;
+    margin-left: 117px;
 }
 
 
