@@ -43,7 +43,6 @@ nav li
 
 a
 {
-    
     text-decoration: none;
 }
 
@@ -58,24 +57,4 @@ color:#0065FC;
     color: #0065FC;
 }
 
-#search
-{
-    background-color:#0065FC;
-    color: white;
-    border-radius: 0px 10px 10px 0px;
-    border-top: solid 8px #0065FC;
-    border-bottom:solid 8px #0065FC ;
-    border-left: solid 3px #0065FC;
-    border-right: solid 3px #0065FC;
-}
 
-#map
-{
-    border: solid 2px #F2F2F2;
-    background-color: #F2F2F2;
-}
-
-#site-search
-{
-    border: solid 2px #F2F2F2;
-}
