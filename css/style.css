@@ -43,8 +43,19 @@ nav li
 
 a
 {
-    color: #2078fc ;
+    
     text-decoration: none;
+}
+
+.nav_entry:hover
+{
+border-top: solid 2px #0065FC;
+color:#0065FC;
+}
+
+.nav_title:hover
+{
+    color: #0065FC;
 }
 
 #search
