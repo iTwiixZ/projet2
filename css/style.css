@@ -148,7 +148,7 @@ color:#0065FC;
 
 
 
-/****** FILTERS BAR*****/ 
+/****** FILTERS BAR *****/ 
 
 .filters
 {
@@ -157,14 +157,28 @@ color:#0065FC;
     font-weight: bold;
     display: flex;
     
-    
+}
     
 
 
 
 /*****MOBILE****/
 
+@media screen (max-width: 768px;){ 
+  
+    .nav_title
+    {
+        border-bottom: solid 2px #f2f2f2;
+    }
+    
+    .nav_entry:hover
+    {
+        border-bottom: solid 2px #0065FC;
+    }
 
+    
+
+}
 
 
 
