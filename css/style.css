@@ -75,8 +75,21 @@ color:#0065FC;
     margin-left: 117px;
     margin-top: 42px;
     display: flex;
-    background-color: 
+    
+    
+    
 }
+
+.search_bar_input
+{
+    
+    display: flex;
+    
+    height: 90px;
+    width: 540px;
+    
+}
+
 
 .icon_map
 {
@@ -87,6 +100,7 @@ color:#0065FC;
     align-items: center;
     justify-content: center;
     background-color: #f2f2f2;
+    
 }
 
 #icon_input
@@ -95,6 +109,22 @@ color:#0065FC;
     
 }
 
+.search_input
+{
+   border: solid 1px;
+    border-color: #f2f2f2;
+    
+}
+
+#input
+{
+    display: flex;
+    height:85px;
+    width:200px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
 
 
 
