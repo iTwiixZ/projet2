@@ -111,7 +111,7 @@ color:#0065FC;
 
 .search_input
 {
-   border: solid 1px;
+    border: solid 2px;
     border-color: #f2f2f2;
     
 }
@@ -120,10 +120,11 @@ color:#0065FC;
 {
     display: flex;
     height:85px;
-    width:200px;
+    width:295px;
     font-weight: bold;
     text-align: center;
     border: none;
+    font-size: 24px;
 }
 
 
