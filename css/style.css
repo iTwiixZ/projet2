@@ -148,18 +148,24 @@ color:#0065FC;
 
 
 
+/****** FILTERS BAR*****/ 
 
-
-
-
-
-
+.filters
+{
+    margin-top: 60px;
+    margin-left: 117px;
+    font-weight: bold;
+    display: flex;
+    
+    
+    
 
 
 
 /*****MOBILE****/
 
-@media screen and (max-width:768px)
+
+@media screen (max-width:768px)
 {
     .nav_entry:hover {
         border-bottom: solid 2px #0065FC;
@@ -175,13 +181,9 @@ color:#0065FC;
         border-bottom: solid 2px #f2f2f2;
     }
 
-
     
-
+    
 }
-
-
-
 
 
 
