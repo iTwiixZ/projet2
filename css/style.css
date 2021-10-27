@@ -135,6 +135,7 @@ color:#0065FC;
     border: none;
     border-radius: 0 30px 30px 0 ;
     width: 260px;
+    box-shadow: 0px 0px 0px 2px #0065FC ;
 }
 
 .search
