@@ -86,7 +86,7 @@ color:#0065FC;
     display: flex;
     
     height: 90px;
-    width: 540px;
+    width: 580px;
     
 }
 
@@ -95,7 +95,7 @@ color:#0065FC;
 {
     height:90px;
     width: 100px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 25px 0px 0px 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,8 +127,22 @@ color:#0065FC;
     font-size: 24px;
 }
 
+.btn_search
+{
+    background-color: #0065FC;
+    font: bold;
+    color: white;
+    border: none;
+    border-radius: 0 30px 30px 0 ;
+    width: 260px;
+}
 
-
+.search
+{
+    color: white;
+    font: bold;
+    font-size: 24px;
+}
 
 
 
