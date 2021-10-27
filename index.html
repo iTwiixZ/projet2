@@ -55,11 +55,50 @@
     </form>
 </section>
 
+              <!--FILTERS -->
 <section class="filters">
+    <h3 class="filter_title">Filtres</h3>
+    <fieldset class="filter_container">
+       
+        <!--FILTRE ECONOMIQUE-->
+<div class="filter_item">
+    <span class="filter"><i class="fas fa-money-bill-wave"></i></span>
+    <form class="filter_item_form" method="POST" action="#">
+        <input class="filter_input" type="text" name="economique" value="Economique" disabled="disabled">
+    </form>
+</div>
+                <!-- FILTRE FAMILIAL -->
+<div class="filter_item">
+    <span class="filter"><i class="fas fa-child"></i></span>
+    <form class="filter_item_form" method="POST" action="#">
+        <input class="filter_input" type="text" name="familiale" value="Familial" disabled="disabled">
+    </form>
+</div>
 
+            <!-- FILTRE ROMANTIQUE  -->
+    
+            <div class="filter_item">
+            <span class="filter"><i class="fas fa-heart"></i></span>
+                <form class="filter_item_form" method="POST" action="#">
+                    <input class="filter_input" type="text" name="romantique" value="Romantique" disabled="disabled">
+                </form>
+            </div>
+            <!-- FILTRE ANIMAUX -->
 
+            <div class="filter_item">
+                <span class="filter"><i class="fas fa-dog"></i></span>
+                <form class="filter_item_form" method="POST" action="#">
+                    <input class="filter_input" type="text" name="Animaux" value="Animaux" disabled="disabled">
+                </form>
+            </div>
+</fieldset>
 
+    <!-- INFORMATIONS -->
 
+    <div class="info_container">
+        <span class="icon_info"><i class="fas fa-info"></i></span>
+        <p class="info">Plus de 500 logements sont disponibles dans cette ville</p>
+    </div>
 </section>
 
 
@@ -71,7 +110,7 @@
 </main>
 
 
-    
+   
         
 
 

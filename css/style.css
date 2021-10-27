@@ -159,7 +159,38 @@ color:#0065FC;
     
 }
     
+.filter_title
+{
+ font-weight: bold;
+ color: black;
+ font-size: 24px;
+}
 
+.filter_container
+{
+
+}
+
+.filter_item
+{
+
+}
+
+.filter
+{
+
+}
+
+.filter_item_form
+{
+
+}
+
+
+.filter_input
+{
+
+}
 
 
 /*****MOBILE****/
