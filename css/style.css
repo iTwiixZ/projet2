@@ -143,6 +143,7 @@ color:#0065FC;
     color: white;
     font: bold;
     font-size: 24px;
+    
 }
 
 
@@ -158,18 +159,27 @@ color:#0065FC;
 
 /*****MOBILE****/
 
-@media (max-width:768px)
+@media screen and (max-width:768px)
 {
     .nav_entry:hover {
         border-bottom: solid 2px #0065FC;
         border-top: none;
   }
-  .nav_title:hover
+    .nav_title:hover
   {
       color: #0065FC;
   }
 
+    .nav_entry 
+    {
+        border-bottom: solid 2px #f2f2f2;
+    }
+
+
+    
+
 }
+
 
 
 
