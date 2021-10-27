@@ -70,6 +70,44 @@ color:#0065FC;
 
 /* MAIN SEARCH BAR */
 
+.search_bar
+{
+    margin-left: 117px;
+    margin-top: 42px;
+    display: flex;
+    background-color: 
+}
+
+.icon_map
+{
+    height:90px;
+    width: 100px;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+#icon_input
+{
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*****MOBILE****/
