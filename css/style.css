@@ -165,25 +165,7 @@ color:#0065FC;
 /*****MOBILE****/
 
 
-@media screen (max-width:768px)
-{
-    .nav_entry:hover {
-        border-bottom: solid 2px #0065FC;
-        border-top: none;
-  }
-    .nav_title:hover
-  {
-      color: #0065FC;
-  }
 
-    .nav_entry 
-    {
-        border-bottom: solid 2px #f2f2f2;
-    }
-
-    
-    
-}
 
 
 
