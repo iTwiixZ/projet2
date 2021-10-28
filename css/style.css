@@ -160,6 +160,7 @@ color:#0065FC;
     
     
     
+    
 }
     
 .filter_title
@@ -176,6 +177,8 @@ color:#0065FC;
 {
  display: flex;
  align-items: center;
+ border: none;
+ background-color: green;
  
  
 }
@@ -185,6 +188,8 @@ color:#0065FC;
  display: flex;
  align-items: center;
  justify-content: space-evenly;
+ 
+ background-color: hotpink;
  
  
 }
@@ -201,11 +206,15 @@ color:#0065FC;
   align-items: center;
   justify-content: center;
   
+  
+  
 }
 
 .filter_item_form
 {
-  
+    display:flex;
+    border: none;
+    background-color: indigo;
  
 }
 
@@ -217,7 +226,7 @@ color:#0065FC;
  background-color: transparent;
  font-weight: bold;
  display: flex;
- padding-right: ;
+ text-align: center;
  
 }
 
