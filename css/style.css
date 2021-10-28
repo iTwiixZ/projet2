@@ -85,7 +85,7 @@ color:#0065FC;
     
     display: flex;
     
-    height: 90px;
+    height: 75px;
     width: 580px;
     
 }
@@ -93,9 +93,9 @@ color:#0065FC;
 
 .icon_map
 {
-    height:90px;
-    width: 100px;
-    border-radius: 25px 0px 0px 25px;
+    height:75px;
+    width: 80px;
+    border-radius: 15px 0px 0px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,12 +119,12 @@ color:#0065FC;
 #input
 {
     display: flex;
-    height:85px;
+    height:70px;
     width:295px;
     font-weight: bold;
     text-align: center;
     border: none;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .btn_search
@@ -142,7 +142,7 @@ color:#0065FC;
 {
     color: white;
     font: bold;
-    font-size: 24px;
+    font-size: 22px;
     
 }
 
