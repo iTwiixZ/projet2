@@ -152,10 +152,12 @@ color:#0065FC;
 
 .filters
 {
-    margin-top: 60px;
-    margin-left: 117px;
+    margin-top: 6%;
+    margin-left: 6%;
     font-weight: bold;
     display: flex;
+    align-items: center;
+    
     
 }
     
@@ -164,34 +166,68 @@ color:#0065FC;
  font-weight: bold;
  color: black;
  font-size: 24px;
+ padding-right: 3%;
+ 
 }
 
 .filter_container
 {
-
+ display: flex;
+ align-items: ;
+ border:none ;
 }
 
 .filter_item
 {
-
+ display: flex;
+ 
 }
 
 .filter
 {
-
+ color: #0065FC;
 }
 
 .filter_item_form
 {
-
+ 
 }
 
 
 .filter_input
 {
+ border: ;
+ background-color: transparent;
+}
+
+
+
+/***** INFORMATION ***/
+.info_container
+{
+    display: flex;
+    margin-left: 6%;
+    align-items: center;
+}
+
+.icon_info
+{
+    width: 30px;
+    height: 30px;
+    border: solid 2px #f2f2f2;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
 
 }
 
+.info 
+{
+    padding-left: 2%;
+    font-weight: bold;
+}
 
 /*****MOBILE****/
 
