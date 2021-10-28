@@ -10,139 +10,35 @@
     <title>Booki</title>
 </head>
 <body>
-
-                    <!--  HEADER -->
-  <header>
-    
+                    <!-- NAVBAR -->
+<header>
     <nav>
-        <img class="logo" src="images/logo/Booki.png" alt="Logo">
-        <ul>
-            <li class="nav_entry" ><a href="#">
-                <h4 class="nav_title">Hébergements</h4>
-            </a></li>
-            <li class="nav_entry"><a href="#">
-                <h4 class="nav_title" >Activités</h4>
-            </a></li>
-        </ul>
-    
-    </nav>
-    <hgroup class="title_container">
-        <h1 class="pincipal_title">Trouver votre hébergement pour des vacances de rêve</h2>
-        <h2 class="secondary_title">En plein centre ville ou en pleine nature</h4>
-</hgroup>
-</header> 
-                           
-                        <!-- MAIN -->
-<main>
-
-                     <!--Search Bar -->
-
-<section class="search_bar">
-    
-<form>
-    <div class="search_bar_input">
-    <div class="icon_map">
-        <i class="fa fa-map-marker fa-2x" id="icon_input" aria-hidden="true"></i>   
-    </div>
-    <div class="search_input">
-        <input id="input" type="text" name="search" value="Marseille,France">
-    </div>
-<button class="btn_search">
-    <a class="search" href="#">Rechercher</a>
-</button>
-
+        <img id="logo" src="images/logo/Booki.png" alt="Logo">
+        <div class="sub_nav"> 
+        <a class="nav_entry" href="#">Hébergements</a>
+        <a class="nav_out" href="#">Activités</a>
         </div>
-    </form>
-</section>
+    </nav>
+</header>
 
-              <!--FILTERS -->
-<section class="filters">
-    <h3 class="filter_title">Filtres</h3>
-    <fieldset class="filter_container">
-       
-        <!--FILTRE ECONOMIQUE-->
-<div class="filter_item">
-    <span class="filter_icon"><i class="fas fa-money-bill-wave"></i></span>
-    <form class="filter_item_form" method="POST" action="#">
-        <input class="filter_input" type="text" name="economique" value="Economique" disabled="disabled">
-    </form>
+                    <!-- SEARCH -->
+
+<main class="wrapper">
+<h2 class="heading">Trouver votre hébergement pour des vacances de rêve</h2>
+<p class="heading">En plein centre ville ou en plein nature</p>
+
+                    <!-- FORM -->
+<div class="search_form">
+    <i id="map_icon" class="fas fa-map-marker-alt"></i>
+    <input type="text" placeholder="Marseille,France">
+    <button><span class="search_loupe">Rechercher</span>
+        <i id="loupe" class="fas fa-search"></i>
+    </button>                
 </div>
-                <!-- FILTRE FAMILIAL -->
-<div class="filter_item">
-    <span class="filter_icon"><i class="fas fa-child"></i></span>
-    <form class="filter_item_form" method="POST" action="#">
-        <input class="filter_input" type="text" name="familiale" value="Familial" disabled="disabled">
-    </form>
-</div>
-
-            <!-- FILTRE ROMANTIQUE  -->
-    
-            <div class="filter_item">
-            <span class="filter_icon"><i class="fas fa-heart"></i></span>
-                <form class="filter_item_form" method="POST" action="#">
-                    <input class="filter_input" type="text" name="romantique" value="Romantique" disabled="disabled">
-                </form>
-            </div>
-            <!-- FILTRE ANIMAUX -->
-
-            <div class="filter_item">
-                <span class="filter_icon"><i class="fas fa-dog"></i></span>
-                <form class="filter_item_form" method="POST" action="#">
-                    <input class="filter_input" type="text" name="Animaux" value="Animaux" disabled="disabled">
-                </form>
-            </div>
-</fieldset>
-
-    
-</section>
-                        <!-- INFORMATIONS -->
-    <div class="info_container">
-        <span class="icon_info"><i class="fas fa-info"></i></span>
-        <p class="info">Plus de 500 logements sont disponibles dans cette ville</p>
-    </div>
-
-
-
-
-
-
-
-
 </main>
 
-        <!-- FOOTER 
- <footer>
- <div class="footer_body">
-  <ul class="lista">
-    <li class="list_element"><strong>A propos</strong></li>
-    <li class="list_element"><a href="#">Fonctionnement du site</a></li>
-    <li class="list_element"><a href="#">Conditions générales de vente</a></li>
-    <li class="list_element"><a href="#">Données et confidentialité</a></li>
-</ul>
-
-<ul class="listb">
-    <li class="list_element"><strong>Nos Hébergements</strong></li>
-    <li class="list_element"><a href="#">Charte qualité</a></li>
-    <li class="list_element"><a href="#">Soumettre votre hôtel</a></li>
-    
-</ul>
-
-<ul class="listc">
-    <li class="list_element"><strong>Assistance</strong></li>
-    <li class="list_element"><a href="#">Centre d'aide</a></li>
-    <li class="list_element"><a href="#">Nous contacter</a></li>
-    
-</ul>
-
-
- </div>
 
 
 
- </footer>
--->
-
-
-<script src="https://use.fontawesome.com/66e002882f.js"></script>
+<script src="https://use.fontawesome.com/66e002882f.js"></script> 
 </body>
-</html>
