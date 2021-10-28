@@ -194,7 +194,7 @@ color:#0065FC;
  
 }
 
-.filter
+.filter_icon
 {
   height: 40px;
   width: 40px;  
@@ -258,6 +258,31 @@ color:#0065FC;
     padding-left: 2%;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+/**** FOOTER 
+
+footer
+{
+    background-color: #f2f2f2;
+}
+
+.footer_body
+{
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+ul
+{
+    list-style: none;
+}
+***/
 
 /*****MOBILE****/
 
