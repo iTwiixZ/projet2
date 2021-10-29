@@ -181,15 +181,19 @@ nav a
 {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 32px;
     margin-top: 3%;
+    flex-wrap: wrap;
 }
 
 
 .filter
 {
-    border: 1px solid #f2f2f2;
+    border: 2px solid #f2f2f2;
     border-radius: 32px;
+    display: flex;
+    align-items: center;
+    
 }
 
 
@@ -197,13 +201,25 @@ nav a
 {
     color: #0065FC;
     background-color: #DEEBFF;
-    padding: 16px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
+    margin: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .filter span
 {
     font-weight: bold;
-    padding: 16px;
+    padding: 0 16px;
 
+}
+
+.filter:hover
+{
+    background-color: #DEEBFF;
+    transform: scale(1.085);
 }
