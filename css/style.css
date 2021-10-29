@@ -177,6 +177,22 @@ nav a
 
 /***** FILTER ****/
 
+.filter_list
+{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 3%;
+}
+
+
+.filter
+{
+    border: 1px solid #f2f2f2;
+    border-radius: 32px;
+}
+
+
 #icon_item
 {
     color: #0065FC;
@@ -186,3 +202,8 @@ nav a
 }
 
 .filter span
+{
+    font-weight: bold;
+    padding: 16px;
+
+}
