@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
+
+
+
+
 *
 {
     box-sizing: border-box;
@@ -132,7 +136,7 @@ nav a
 
 .search_form input 
 {
-    padding-right:96px;
+    
     border: 1px solid #f2f2f2;
     
 
@@ -150,7 +154,7 @@ nav a
     box-shadow: 0px 0px 0px 2px #0065FC ;
 }
 
-.search_form input::placeholder
+.search_form input
 {
     font-weight: bold;
     color: black;
@@ -181,7 +185,30 @@ nav a
 
 .search_form button
 {
-    border-radius: 14px 14px 14px 14px;
+    border-radius: 16px 16px 16px 16px;
+    margin-left: -13px;
+    
+    box-shadow: none;
+    
+    
+}
+
+.search_form
+{
+    
+}
+
+.search_form input
+{
+    width: 200px;
+}
+
+.search_form input::placeholder
+{
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    
     
 }
 
@@ -211,10 +238,14 @@ nav a
     border-radius: 32px;
     display: flex;
     align-items: center;
-    transition: all 300ms ease ;
+    transition: all 350ms ease ;
     
 }
 
+/******* MOBILE *****/ 
+@media(max-width:768px){
+   
+}
 
 #icon_item
 {
@@ -251,7 +282,7 @@ nav a
     display: flex;
     align-items: center;
     gap: 16px;
-    flex-wrap: wrap;
+    
     
 }
 
@@ -265,6 +296,26 @@ nav a
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*********** MOBILE *********/
+@media(max-width:768px){
+
+ 
+#icon_info
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+}
+    
+.search_info
+{
+    display: flex;
+    
+}
+
 }
 
 
