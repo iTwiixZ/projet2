@@ -319,6 +319,8 @@ nav a
     padding: 8px;
     box-shadow: 0 0 16px #0000002e;
     flex-grow: 1;
+    height: 255px;
+    width: 289px;
 }
 
 .card_appartement img
@@ -327,7 +329,7 @@ nav a
     height:160px;
     width: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center; 
     
 }
 
