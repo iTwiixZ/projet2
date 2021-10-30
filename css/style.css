@@ -275,6 +275,7 @@ nav a
 {
     display: flex;
     gap: 16px;
+    
 }
 
 .list_appartement > div
@@ -440,12 +441,15 @@ nav a
     justify-content: space-between;
 }
 
+
+
 /***** MOBILE ****/
 
 @media(max-width:768px){
     .list_appartement
     {
         flex-direction: column-reverse;
+        
     }
     
     .list_appartement .populaire_flex
@@ -453,6 +457,5 @@ nav a
         flex-direction: row;
     }
 
-
-
+    
 }
