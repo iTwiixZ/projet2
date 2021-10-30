@@ -280,7 +280,7 @@ nav a
 
 .list_appartement > div
 {
-    background-color: #f2f2f2;
+    
     border-radius: 16px;
     padding: 16px;
 }
@@ -298,6 +298,7 @@ nav a
 .populaire
 {
     flex-basis: 33%;
+    
 }
 
 /***** LISTE APPARTEMENT *****/ 
@@ -310,7 +311,10 @@ nav a
     justify-content: space-around;
     margin-bottom: 16px;
 }
-
+.city
+{
+    background-color: #f2f2f2;
+}
 
 /***** APPARTEMENT CARD *****/
 
@@ -384,6 +388,7 @@ nav a
 {
     display: flex;
     flex-direction: column;
+    background-color: #f2f2f2;
 }
 
 .populaire_flex
@@ -456,6 +461,9 @@ nav a
     {
         flex-direction: row;
     }
-
+    .city
+    {
+        background-color: white;
+    }
     
 }
