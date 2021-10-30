@@ -323,6 +323,14 @@ nav a
     flex-grow: 1;
     height: 255px;
     width: 284px;
+    transition: all 350ms ease;
+}
+
+
+.card_appartement:hover
+{
+    transform: scale(1.085);
+    cursor: pointer;
 }
 
 .card_appartement img
@@ -387,15 +395,19 @@ nav a
 .populaire_card
 {
     display: flex;
-    
     background-color: white;
     border-radius: 16px;
     box-shadow: 0 0 16px #0000002e;
     padding: 8px;
     width: 490px;
-   
-    
-    
+    transition: all 450ms ease;
+}
+
+
+.populaire_card:hover
+{
+    transform: scale(1.085);
+    cursor: pointer;
 }
 
 .populaire_card img
