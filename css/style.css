@@ -1,14 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
-
-
-
-
 *
 {
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
 }
+
+.flex-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flex-column-centre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-column-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .flex-column-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
 a 
 {
@@ -515,3 +543,103 @@ nav a
     }
     
 }
+
+                /***** ACTIVITÉS ******/
+
+#activity
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.activity_bloc
+{
+    width: 100%;
+    height: 600px;
+    
+}
+
+.activity_bloc_small
+{
+    width: 23%;
+    height: 600px;
+}
+
+.card_activity
+{
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.card_activity_small
+{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.hauteur-titre {
+    height: 70px;
+  }
+
+.title_activity
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+
+.img_activity_1
+{
+    object-fit: cover;
+    width: 100%;
+    height: 530px;
+    border-radius: 16px 16px 0 0;
+}
+
+.img_activity_2
+{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 16px 16px 0 0;
+}
+
+.img_activity_3
+{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    border-radius: 16px 16px 0 0;
+}
+
+.img_activity_4
+{
+    object-fit: cover;
+    width: 100%;
+    height: 530px;
+    border-radius: 16px 16px 0 0;
+}
+
+.img_activity_5
+{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 16px 16px 0 0;
+}
+
+.img_activity_6
+{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 16px 16px 0 0;
+}
+
+
+/**** MOBILE ****/
+
