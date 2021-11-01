@@ -557,12 +557,14 @@ nav a
     width: 100%;
     height: 600px;
     
+    
 }
 
 .activity_bloc_small
 {
     width: 23%;
     height: 600px;
+    
 }
 
 .card_activity
@@ -570,6 +572,7 @@ nav a
     width: 23%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
+    transition: all 450ms ease;
 }
 
 .card_activity_small
@@ -577,6 +580,7 @@ nav a
     width: 100%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
+    transition: all 450ms ease;
 }
 
 .hauteur-titre {
@@ -640,6 +644,61 @@ nav a
     border-radius: 16px 16px 0 0;
 }
 
+.card_activity:hover
+{
+    transform: scale(1.085);
+    cursor: pointer;
+}
+
+.card_activity_small:hover
+{
+    transform: scale(1.085);
+    cursor: pointer;
+}
 
 /**** MOBILE ****/
 
+@media(max-width:768px){
+    
+   
+    .activity_bloc
+    {
+        flex-direction: column;
+        height: auto;
+       
+    }
+
+    .activity_bloc_small
+    {
+        width: 90%;
+        height: auto;
+        
+    }
+
+    .card_activity
+    {
+        width: 284px;
+        height: 255px;
+        margin-bottom: 50px;
+    }
+
+    .card_activity_small
+    {
+        width: 284px;
+        height: 255px;
+        margin-bottom: 50px;
+    }
+
+  .img_activity_1,
+  .img_activity_2,
+  .img_activity_3,
+  .img_activity_4,
+  .img_activity_5,
+  .img_activity_6 {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+}
