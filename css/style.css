@@ -62,10 +62,7 @@ nav
    
 }
 
-#logo_mobile
-{
-    display: none;
-}
+
 
 
 nav a 
@@ -104,16 +101,13 @@ nav a
 
     #logo
     {
-        display: none;
-    }
-
-    #logo_mobile
-    {
-       margin: auto;
-       display: inline;
        
+        margin-left: 151px;
+        padding: 0;
         
     }
+
+    
 
     .nav_entry
     {
@@ -136,6 +130,7 @@ nav a
  .heading
 {
     margin-bottom: 15px;
+    font-size: 20px;
 }
 
 .wrapper
@@ -169,6 +164,8 @@ nav a
     
 
 }
+
+
 
 .search_form button
 {
@@ -390,6 +387,7 @@ nav a
 .city
 {
     background-color: #f2f2f2;
+    margin-right: 16px;
 }
 
 /***** APPARTEMENT CARD *****/
@@ -465,12 +463,13 @@ nav a
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
+    
 }
 
 .populaire_flex
 {
     flex-basis: 100%;
-    /* justify-content: space-evenly; */
+    
     align-items: center;
 }
 
@@ -482,7 +481,8 @@ nav a
     box-shadow: 0 0 16px #0000002e;
     padding: 8px;
     margin-bottom: 40px;
-    width: 490px;
+    width: 470px;
+    font-size: 16px;
     transition: all 450ms ease;
 }
 
@@ -552,7 +552,7 @@ nav a
 #activity
 {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 8px;
 }
 
 .activity_bloc
@@ -680,16 +680,16 @@ nav a
 
     .card_activity
     {
-        width: 284px;
-        height: 255px;
+        width: 264px;
+        height: 235px;
         margin-bottom: 50px;
         box-shadow: 0px 5px 5px 0px #f2f2f2;
     }
 
     .card_activity_small
     {
-        width: 284px;
-        height: 255px;
+        width: 264px;
+        height: 235px;
         margin-bottom: 50px;
         box-shadow: 0px 5px 5px 0px #f2f2f2;
     }
@@ -714,7 +714,7 @@ nav a
 {
     background-color: #f2f2f2;
     height: 300px;
-    margin-top: 100px;
+    margin-top: 26px;
 }
 
 .link_footer
