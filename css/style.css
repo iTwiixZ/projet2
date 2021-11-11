@@ -165,6 +165,10 @@ nav a
 
 }
 
+input:focus
+{
+    outline: #f2f2f2;
+}
 
 
 .search_form button
@@ -268,6 +272,8 @@ nav a
 @media(max-width:768px){
    
 }
+
+
 
 .filter i
 {
@@ -462,6 +468,7 @@ nav a
 {
     display: flex;
     flex-direction: column;
+    
     background-color: #f2f2f2;
     
 }
@@ -482,7 +489,7 @@ nav a
     padding: 8px;
     margin-bottom: 40px;
     width: 470px;
-    font-size: 16px;
+    font-size: 18px;
     transition: all 450ms ease;
 }
 
@@ -521,8 +528,14 @@ nav a
 {
     display: flex;
     justify-content: space-between;
+    
 }
 
+.most_popular
+{
+    font-size: 22px;
+   
+}
 
 
 /***** MOBILE ****/
@@ -664,17 +677,23 @@ nav a
 @media(max-width:768px){
     
    
+    
+
+
     .activity_bloc
     {
         flex-direction: column;
         height: auto;
+        
+       
        
     }
 
     .activity_bloc_small
     {
-        width: 90%;
+        width: 75%;
         height: auto;
+       
         
     }
 
