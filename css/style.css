@@ -270,6 +270,18 @@ input:focus
 
 /******* MOBILE *****/ 
 @media(max-width:768px){
+    .filter_list
+{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    
+}
+
+.filter_list h2
+{
+    margin-bottom: 0;
+}
    
 }
 
