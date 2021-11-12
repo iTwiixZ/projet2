@@ -579,7 +579,7 @@ input:focus
 
 /* TABLETTE */
 
-@media(min-width:768px){
+@media(min-width:768px) and (max-width:1024px){
 
     .list_appartement
     {
@@ -607,7 +607,7 @@ input:focus
 
     .populaire
     {
-        background-color: white;
+        background-color:white;
         
     }
 
