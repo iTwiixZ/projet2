@@ -5,6 +5,11 @@
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
 }
+body
+{
+    margin: auto;
+    max-width: 1600px;
+}
 
 .flex-centre {
     display: flex;
@@ -571,6 +576,45 @@ input:focus
     
 
 }
+
+/* TABLETTE */
+
+@media(min-width:768px){
+
+    .list_appartement
+    {
+        flex-direction: column-reverse;
+        
+    }
+    
+    .list_appartement .populaire_flex
+    {
+        flex-direction: row;
+        
+        
+    }
+    .city
+    {
+        background-color: white;
+    }
+
+    .populaire_flex
+    {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .populaire
+    {
+        background-color: white;
+        
+    }
+
+}
+
+
+
 
                 /***** ACTIVITÉS ******/
 
