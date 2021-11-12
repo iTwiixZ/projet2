@@ -783,6 +783,49 @@ input:focus
 
 }
 
+/* TABLETTE */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+
+   
+    .activity_bloc
+    {
+        width: 100%;
+        
+        flex-direction: column;
+        
+        
+        
+        
+        
+    }
+    
+    .activity_bloc_small
+    {
+        width: 90%;
+        
+        
+        
+        
+        
+    }
+    
+    .card_activity
+    {
+        width: 90%;
+       
+    }
+    
+    .card_activity_small
+    {
+        width: 100%;
+        
+    }
+    
+}
+    
+
+
 /******** FOOTER *******/
 
 .footer
