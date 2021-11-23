@@ -740,19 +740,10 @@ input:focus
 
 /**** MOBILE ****/
 
-@media(max-width:750px){
-    .activity_bloc_small
-    {
-        
-    }
-}
+
 
 @media(max-width:768px){
     
-   
-    
-
-
     .activity_bloc
     {
         flex-direction: column;
@@ -802,31 +793,97 @@ input:focus
 
 /* TABLETTE */
 
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait){
+@media(min-width:768px) and (max-width:1024px) and (orientation: landscape){
 
-   
     .activity_bloc
     {
         width: 100%;
-        
         flex-direction: column;
     }
-    
+
     .activity_bloc_small
     {
-        width: 90%;
+        
+        width: 100%;
     }
-    
     .card_activity
     {
-        width: 90%;
+        width: 100%;
     }
     .card_activity_small
     {
         width: 100%;
     }
 }
-    
+
+@media(max-width:748px){
+    .activity_bloc
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .activity_bloc_small
+    {
+        
+        width: 100%;
+    }
+    .card_activity
+    {
+        width: 100%;
+    }
+    .card_activity_small
+    {
+        width: 100%;
+    }
+}
+
+@media(min-width:749px) and (max-width:1024px){
+
+    .activity_bloc
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .activity_bloc_small
+    {
+        
+        width: 100%;
+    }
+    .card_activity
+    {
+        width: 100%;
+    }
+    .card_activity_small
+    {
+        width: 100%;
+    }
+}
+
+
+@media(min-width:768px) and (max-width:1024px) and (orientation: portrait){
+
+    .activity_bloc
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .activity_bloc_small
+    {
+        
+        width: 100%;
+    }
+    .card_activity
+    {
+        width: 100%;
+    }
+    .card_activity_small
+    {
+        width: 100%;
+    }
+}
 
 
 /******** FOOTER *******/
@@ -879,3 +936,21 @@ input:focus
         margin-left: 0;
     }
 }
+
+/*** TABLETTE ***/
+
+/* @media(min-width:768px) and (max-width:1024px) and (orientation: landscape){
+    .footer
+    {
+       flex-direction: column;
+       align-items: flex-start;
+       height: auto;
+       padding-left: 20px;
+    }
+
+    .about
+    {
+        margin-left: 0;
+    }
+
+} */
