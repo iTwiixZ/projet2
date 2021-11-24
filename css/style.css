@@ -799,6 +799,21 @@ input:focus
 
 /* TABLETTE */
 
+@media(min-width:769px) and (max-width:1024px){
+    .img_activity_1,
+  .img_activity_2,
+  .img_activity_3,
+  .img_activity_4,
+  .img_activity_5,
+  .img_activity_6 {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+}
+
 @media(min-width:768px) and (max-width:1024px) and (orientation: landscape){
 
     .activity_bloc
@@ -945,13 +960,13 @@ input:focus
 
 /*** TABLETTE ***/
 
-/* @media(min-width:768px) and (max-width:1024px) and (orientation: landscape){
+@media(min-width:769px) and (max-width:1024px) and (orientation:portrait){
     .footer
     {
-       flex-direction: column;
        align-items: flex-start;
        height: auto;
        padding-left: 20px;
+       margin-top: 800px;
     }
 
     .about
@@ -959,4 +974,4 @@ input:focus
         margin-left: 0;
     }
 
-} */
+}
