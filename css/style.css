@@ -623,7 +623,13 @@ input:focus
 
 }
 
+@media(min-width:749px) and (max-width:1024px){
 
+    .populaire_flex
+    {
+        justify-content: center;
+    }
+}
 
 
                 /***** ACTIVITÉS ******/
