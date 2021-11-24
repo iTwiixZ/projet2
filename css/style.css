@@ -763,6 +763,7 @@ input:focus
     {
         width: 75%;
         height: auto;
+        
        
         
     }
@@ -811,6 +812,16 @@ input:focus
     object-fit: cover;
     object-position: center;
   }
+
+    .card_activity
+    {
+        margin-bottom: 20px;
+    }
+
+    .card_activity_small
+    {
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -966,7 +977,23 @@ input:focus
        align-items: flex-start;
        height: auto;
        padding-left: 20px;
-       margin-top: 800px;
+       margin-top: 900px;
+    }
+
+    .about
+    {
+        margin-left: 0;
+    }
+
+}
+
+@media(min-width:876px) and (max-width:1024px){
+    .footer
+    {
+       align-items: flex-start;
+       height: auto;
+       padding-left: 20px;
+       margin-top: 900px;
     }
 
     .about
